@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import FloatingNav from "@/components/sideBar";
 import Sidebar from "@/components/sideBar";
+import Topbar from "@/components/topBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
      <Sidebar></Sidebar>
+     <Topbar></Topbar>
     </>
   );
 }
